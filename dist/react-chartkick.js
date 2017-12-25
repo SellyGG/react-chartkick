@@ -166,7 +166,7 @@ var ChartComponent = function (_React$Component) {
         fontFamily: "'Lucida Grande', 'Lucida Sans Unicode', Verdana, Arial, Helvetica, sans-serif"
       };
       this.chartId = this.chartId || props.id || "chart-" + chartId++;
-      return _react2.default.createElement("div", { id: this.chartId, style: style }, "Loading...");
+      return _react2.default.createElement("div", { id: this.chartId, style: style });
     }
   }]);
 

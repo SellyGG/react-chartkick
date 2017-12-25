@@ -148,9 +148,7 @@ var ChartComponent = function (_React$Component) {
   }, {
     key: "componentWillUpdate",
     value: function componentWillUpdate(nextProps) {
-      if (this.props.data !== nextProps.data) {
-        this.newChartType(nextProps);
-      }
+      this.newChartType(nextProps);
     }
   }, {
     key: "render",

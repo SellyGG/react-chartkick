@@ -55,9 +55,7 @@ class ChartComponent extends React.Component {
     }
     this.chartId = this.chartId || props.id || ("chart-" + chartId++)
     return (
-      React.createElement("div", {id: this.chartId, style: style},
-        "Loading..."
-      )
+      React.createElement("div", {id: this.chartId, style: style})
     )
   }
 }
